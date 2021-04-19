@@ -1,0 +1,115 @@
+div {
+ 
+  text-align: center;
+  vertical-align: middle;
+}
+
+#FirstBox {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#secondBox {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: stretch; 
+}
+
+.a {
+  height: 9.8vh;
+  line-height: 9.8vh;
+  
+}
+
+.b {
+  height: 19.55vh;
+  line-height: 19.55vh;
+}
+
+.c, .d {
+  line-height: 16.4vh;
+  height: 16.4vh;
+ 
+}
+
+#secondBox div {
+  height: 32.6vh;
+  line-height: 32.6vh;
+
+}
+
+.e, .g {
+  float: left;
+}
+
+
+.i {
+  height: 10.43vh;
+
+  line-height: 10.43vh;
+}
+
+@media(min-width:768px) {
+
+
+  
+  #FirstBox {
+    display: grid; 
+    grid-template-columns: 1fr 1.4fr 1.4fr;
+    grid-template-rows: 1fr 2fr 2.5fr 1.5fr;
+
+  }
+  
+  .a {
+  
+    height: auto;
+    line-height: 99px;
+    grid-column:  1/4;
+    
+  }
+
+  .b {
+    height: auto;
+    width: auto;
+    line-height: 599px;
+    grid-row: 2/5;
+    
+  }
+
+  .c, .d {
+    height: auto;
+    width: auto;
+    line-height: 198px;
+   
+  }
+
+  
+
+  #secondBox {
+    grid-row: 3;
+    grid-column: 2/4;
+    display: inline-block;
+  }
+
+  
+
+  #secondBox div {
+    height: 251px;
+    width: 24.7%;
+    line-height: 250px;
+    display: inline-block;
+  }
+
+  .f {
+    float: left;
+  }
+
+  .i {
+    height: auto;
+    line-height: 140px;
+    grid-column: 2/4;
+   
+  } 
+
+}
