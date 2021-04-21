@@ -1,9 +1,174 @@
 div {
-    background-color: rgb(216, 216, 216);
-    border: 1px solid black;
-   
-  }
-  
-  
-  
-  
+  background-color: rgb(216, 216, 216);
+  border: 1px solid black;
+ 
+}
+
+.a{
+
+    background-color: rgb(78, 160, 187) ;
+
+}
+
+.b{
+
+     background-color: lightcyan;
+
+}
+
+.c{
+
+  background-color:lightseagreen ;
+
+
+}
+
+.d{
+
+  background-color: lightpink;
+}
+
+.e{
+
+  background-color: lightyellow;
+
+
+}
+
+.f{
+
+  background-color: maroon;
+
+}
+
+.g{
+  background-color: lightslategray;
+
+}
+
+.h{
+
+  background-color: lightgoldenrodyellow;
+
+}
+
+.i{
+
+  background-color: lightgreen;
+
+
+}
+
+@media(min-width: 768px) {
+  .a{
+
+    background-color: cadetblue ;
+
+}
+
+.b{
+
+     background-color: cyan;
+
+}
+
+.c{
+
+  background-color:darkgoldenrod ;
+
+
+}
+
+.d{
+
+  background-color: darkkhaki;
+}
+
+.e{
+
+  background-color: rgb(125, 65, 173);
+
+
+}
+
+.f{
+
+  background-color: dimgray;
+
+}
+
+.g{
+  background-color: firebrick;
+
+}
+
+.h{
+
+  background-color: gold;
+
+}
+
+.i{
+
+  background-color: hotpink;
+
+
+}
+}
+
+@media(min-width:992px) {
+  .a{
+
+    background-color: rgb(145, 145, 195) ;
+
+}
+
+.b{
+
+     background-color: rgb(150, 188, 190);
+
+}
+
+.c{
+
+  background-color:rgb(190, 114, 129) ;
+
+
+}
+
+.d{
+
+  background-color: rgb(26, 139, 28);
+}
+
+.e{
+
+  background-color: deepskyblue;
+
+
+}
+
+.f{
+
+  background-color: gold;
+
+}
+
+.g{
+  background-color: greenyellow;
+
+}
+
+.h{
+
+  background-color: rgb(192, 171, 207);
+
+}
+
+.i{
+
+  background-color: lawngreen;
+
+
+}
+}
