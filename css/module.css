@@ -1,9 +1,14 @@
+  
+div {
+ 
+  text-align: center;
+  vertical-align: middle;
+}
 
 #FirstBox {
   display: grid;
   grid-template-columns: 1fr;
 }
-
 
 #secondBox {
   display: grid;
@@ -12,17 +17,9 @@
   justify-items: stretch; 
 }
 
-div {
- text-align: center;
-  vertical-align: middle;
-}
-
-
-
-
 .a {
-  height: 9.8vh;
-  line-height: 9.8vh;
+  height: 9.77vh;
+  line-height: 9.77vh;
   
 }
 
@@ -32,14 +29,14 @@ div {
 }
 
 .c, .d {
-  line-height: 16.4vh;
-  height: 16.4vh;
+  line-height: 16.29vh;
+  height: 16.29vh;
  
 }
 
 #secondBox div {
-  height: 32.6vh;
-  line-height: 32.6vh;
+  height: 32.63vh;
+  line-height: 32.63vh;
 
 }
 
@@ -60,7 +57,7 @@ div {
   
   #FirstBox {
     display: grid; 
-    grid-template-columns: 1fr 1.4fr 1.4fr;
+    grid-template-columns: 1fr 1.51fr 1.51fr;
     grid-template-rows: 1fr 2fr 2.5fr 1.5fr;
 
   }
@@ -100,7 +97,7 @@ div {
 
   #secondBox div {
     height: 251px;
-    width: 24.7%;
+    width: 24.79%;
     line-height: 250px;
     display: inline-block;
   }
@@ -111,7 +108,7 @@ div {
 
   .i {
     height: auto;
-    line-height: 140px;
+    line-height: 150px;
     grid-column: 2/4;
    
   } 
