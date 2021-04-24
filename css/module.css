@@ -1,116 +1,143 @@
-  
-div {
+#a{
+ height: 75px ;
+  grid-column: 1/-1;
+  line-height: 75px;
+}
+#b{
+
+ grid-column: 1/-1;
+  height: 150px;
+  line-height: 150px;
+}
+#c{
  
-  text-align: center;
-  vertical-align: middle;
+  grid-column: 1/-1;
+  height: 125px;
+  line-height: 125px;
 }
-
-#FirstBox {
+#d{
+  grid-column: 1/-1;
+  height: 125px;
+  line-height: 125px;
+}
+#ef, #gh{
+  grid-column: 1/-1;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
 }
-
-#secondBox {
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: stretch; 
-}
-
-.a {
-  height: 9.77vh;
-  line-height: 9.77vh;
-  
-}
-
-.b {
-  height: 19.55vh;
-  line-height: 19.55vh;
-}
-
-.c, .d {
-  line-height: 16.29vh;
-  height: 16.29vh;
+#e{
  
+  height: 250px;
+  line-height: 250px;
+}
+#f{
+
+  height: 250px;
+  line-height: 250px;
+}
+#g{
+
+  grid-column: 1/2;
+  height: 250px;
+  line-height: 250px;
+}
+#h{
+ 
+  grid-column: -2/-1;
+  height: 250px;
+  line-height: 250px;
+}
+#i {
+ 
+  grid-column: 1/-1;
+  height: 80px;
+  line-height: 80px;
 }
 
-#secondBox div {
-  height: 32.63vh;
-  line-height: 32.63vh;
+@media screen and (min-width:480px) and (max-width:767px){
 
+  #a{
+      grid-column: 1/-1;
+      height: 100px;
+      line-height: 100px;
+  }
+  #b{
+      grid-column: 1/2;
+      width: 200px;
+      height: 100%;
+      line-height: 780px;
+  }
+  #c{
+      grid-column: 1/-1;
+      height: 150px;
+      line-height: 150px;
+  }
+  #d{
+      grid-column: 1/-1;
+      height: 150px;
+      line-height: 150px;
+  }
+  #ef{
+      grid-column: 1/-1;
+      height: 200px;
+      line-height: 200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  #gh{
+      grid-column: 1/-1;
+      height: 200px;
+      line-height: 200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  #i{
+      grid-column: 1/-1;
+      height: 80px;
+      line-height: 80px;
+  }
 }
 
-.e, .g {
-  float: left;
-}
+@media screen and (min-width:768px){
 
-
-.i {
-  height: 10.43vh;
-
-  line-height: 10.43vh;
-}
-
-@media(min-width:768px) {
-
-
-  
-  #FirstBox {
-    display: grid; 
-    grid-template-columns: 1fr 1.51fr 1.51fr;
-    grid-template-rows: 1fr 2fr 2.5fr 1.5fr;
-
+  #a{
+      grid-column: 1/-1;
+      height: 100px;
+      line-height: 100px;
   }
-  
-  .a {
-  
-    height: auto;
-    line-height: 99px;
-    grid-column:  1/4;
-    
+  #b{
+      grid-column: 1/2;
+      width: 200px;
+      height: 600px;
+      line-height: 600px;
   }
-
-  .b {
-    height: auto;
-    width: auto;
-    line-height: 599px;
-    grid-row: 2/5;
-    
+  #c{
+      grid-column: 1/2;
+      height: 200px;
+      line-height: 200px;
   }
-
-  .c, .d {
-    height: auto;
-    width: auto;
-    line-height: 198px;
-   
+  #d{
+      grid-column: 2/-1;
+      height: 200px;
+      line-height: 200px;
   }
-
-  
-
-  #secondBox {
-    grid-row: 3;
-    grid-column: 2/4;
-    display: inline-block;
+  #ef{
+      grid-column: 1/2;
+      height: 250px;
+      line-height: 250px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
   }
-
-  
-
-  #secondBox div {
-    height: 251px;
-    width: 24.79%;
-    line-height: 250px;
-    display: inline-block;
+  #gh{
+      grid-column: 2/-1;
+      height: 250px;
+      line-height: 250px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
   }
-
-  .f {
-    float: left;
+  #i{
+      grid-column: 1/-1;
+      height: 150px;
+      line-height: 150px;
   }
-
-  .i {
-    height: auto;
-    line-height: 150px;
-    grid-column: 2/4;
-   
-  } 
-
 }

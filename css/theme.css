@@ -1,58 +1,58 @@
-div {
+#a, #b , #c , #e , #f , #g ,#h , #i , #d{
   background-color: rgb(216, 216, 216);
   border: 1px solid black;
  
 }
 
-.a{
+#a{
 
     background-color: rgb(78, 160, 187) ;
 
 }
 
-.b{
+#b{
 
      background-color: lightcyan;
 
 }
 
-.c{
+#c{
 
   background-color:lightseagreen ;
 
 
 }
 
-.d{
+#d{
 
   background-color: lightpink;
 }
 
-.e{
+#e{
 
   background-color: lightyellow;
 
 
 }
 
-.f{
+#f{
 
   background-color: maroon;
 
 }
 
-.g{
+#g{
   background-color: lightslategray;
 
 }
 
-.h{
+#h{
 
   background-color: lightgoldenrodyellow;
 
 }
 
-.i{
+#i{
 
   background-color: lightgreen;
 
@@ -60,55 +60,55 @@ div {
 }
 
 @media(min-width: 768px) {
-  .a{
+  #a{
 
     background-color: cadetblue ;
 
 }
 
-.b{
+#b{
 
      background-color: cyan;
 
 }
 
-.c{
+#c{
 
   background-color:darkgoldenrod ;
 
 
 }
 
-.d{
+#d{
 
   background-color: darkkhaki;
 }
 
-.e{
+#e{
 
   background-color: rgb(125, 65, 173);
 
 
 }
 
-.f{
+#f{
 
   background-color: dimgray;
 
 }
 
-.g{
+#g{
   background-color: firebrick;
 
 }
 
-.h{
+#h{
 
   background-color: gold;
 
 }
 
-.i{
+#i{
 
   background-color: hotpink;
 
@@ -117,55 +117,55 @@ div {
 }
 
 @media(min-width:992px) {
-  .a{
+  #a{
 
     background-color: rgb(145, 145, 195) ;
 
 }
 
-.b{
+#b{
 
      background-color: rgb(150, 188, 190);
 
 }
 
-.c{
+#c{
 
   background-color:rgb(190, 114, 129) ;
 
 
 }
 
-.d{
+#d{
 
   background-color: rgb(26, 139, 28);
 }
 
-.e{
+#e{
 
   background-color: deepskyblue;
 
 
 }
 
-.f{
+#f{
 
   background-color: gold;
 
 }
 
-.g{
+#g{
   background-color: greenyellow;
 
 }
 
-.h{
+#h{
 
   background-color: rgb(192, 171, 207);
 
 }
 
-.i{
+#i{
 
   background-color: lawngreen;
 
